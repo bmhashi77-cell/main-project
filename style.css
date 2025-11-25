@@ -1,0 +1,572 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.Parent-hero{
+    background: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)), url(bg.png);
+    width: 100%;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+}
+.header{
+    padding: 20px 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #0D0908;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+
+}
+.header h1{
+    color: white;
+    font-size: 2.5em;
+}
+.header ul{
+    display: flex;
+    gap: 50px;
+    font-size: 1.2em;
+    list-style: none;
+}
+.header ul li a{
+    color: grey;
+    text-decoration: none;
+}
+.header ul li span{
+    color: white;
+}
+.header .btn button{
+    font-size: 1.2em;
+    padding: 15px 30px;
+    background-color: #9c1ee9;
+    color: white;
+    border-radius: 15px;
+    margin-left: 20px;
+    cursor: pointer;
+}
+#sign-up{
+    background-color: transparent;
+    border: 2px solid #9c1ee9;
+}
+.Parent-hero .hero{
+    margin-top: 10%;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 5%;
+}
+.hero .left{
+    width: 30%;
+}
+.Parent-hero .hero h1{
+    font-size: 4em;
+    line-height: 90px;
+
+}
+#head-text{
+    color: #9c1ee9;
+}
+.Parent-hero .hero p{
+    font-size: 1.3em;
+    margin-top: 5%;
+}
+.left .btn button{
+    background-color: #9c1ee9;
+    font-size: 1.5em;
+    color: white;
+    padding: 15px 20px;
+    margin-top: 10%;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+}
+#see{
+    background-color: transparent;
+    border: 2px solid #9c1ee9;
+    margin-left: 40px;
+    cursor: pointer;
+}
+.hero .right{
+    display: flex;
+    width: 40%;
+    gap: 20px;
+}
+.hero .right .bgimg{
+    background-color: #9c1ee9;
+    width: 250px;
+    height: 450px;
+    border-radius: 150px 100px 10px 10px
+}
+.right .bgimg img{
+    margin-left: 8%;
+    margin-top: 5%;
+   
+    
+}
+.right .images{
+    /* background-color: #9c1ee9; */
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.about-setcion{
+    display: flex;
+    justify-content: center;
+    margin-top: 5%;
+   /* background-color: #9c1ee9; */
+}
+.about-setcion .aboutleft{
+    width: 40%;
+    position: relative;
+   /* background-color: aliceblue; */
+    height: 450px;
+
+}
+.about-setcion .aboutleft h1{
+    font-size: 4em;
+    padding: 30px 0px;
+}
+.imgbg{
+    background: linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.7)),url(Rectangle\ 27.png);
+    width: 95%;
+    height: 350px;
+    border-radius: 20px;
+    
+    
+}
+.aboutleft  p{
+    font-size: 1.1em;
+    color: white;
+    position: absolute;
+    bottom: 0px;
+    left: 10px;
+   
+   
+}
+.aboutleft p span{
+    font-size: 12px;
+}
+.about-setcion .aboutright{
+    /* background-color: #9c1ee9; */
+    width: 40%;
+    
+}
+.aboutright p{
+    font-size: 1.2em;
+    margin-top: 40px;
+    margin-left: 20px;
+    padding-right: 70px;
+    /* background-color: aliceblue; */
+}
+.aboutright p span{
+    color: #9c1ee9;
+    font-weight: bolder;
+}
+.aboutright .imgright{
+    display: flex;
+    
+}
+.aboutright .imgright img{
+    width:300px ;
+    height: 400px;
+    margin-top: 20px;
+
+}
+.speakers{
+    background: linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.4)),url(bgspeakers.png);
+    width: 100%;
+    height: 550px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 5%;
+    color: white;
+
+}
+.speakers .speak-head{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 50px;
+}
+.speak-head h1{
+    font-size: 2.7em;
+    line-height: 60px;
+
+    
+}
+.speak-head button{
+    font-size: 1em;
+    padding: 15px 25px;
+    border-radius: 20px;
+    background-color: #9c1ee9;
+    color: white;
+
+}
+.speakers-setcion{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.speakers-setcion .speaker{
+    width: 16%;
+    background-color: white;
+    height: 300px;
+    color: black;
+    margin-top: 20px;
+    border-radius: 15px;
+    
+}
+.speaker img{
+    width: 100%;
+}
+.speaker h1{
+    font-size: 1.4em;
+    padding: 5px 10px;
+}
+.speaker p{
+    padding-left: 10px;
+}
+.watch-video {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 5%;
+}
+.watch-video .watchleft{
+    width: 40%;
+    position: relative;
+    /* background-color: #9c1ee9; */
+}
+.watchleft .watchimg{
+    width: 50%;
+    display: flex;
+    
+    height: 300px;
+}
+.watch-video .watchleft img{
+    width: 350px;
+}
+#img1{
+    height: 200px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    margin-top: 40%;
+}
+#img2{
+    height: 250px;
+    margin-top: 15%;
+
+}
+#img3{
+    margin-top: 15%;
+    height: 260px;
+}
+#img4{
+    height: 220px;
+    margin-top: 1%;
+    margin-left: 10%;
+    width: 500px;
+
+}
+
+.wachtbg{
+    background-color: white;
+    width: 180px;
+    height: 180px;
+    text-align: center;
+    align-content: center;
+    align-items: center;
+    margin-bottom: 10%;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   position: absolute;
+   bottom: 150px;
+   left: 160px;
+    
+}
+.wachtbg h1{
+    font-size: 1.9em ;
+    color: black;
+    
+}
+.border{
+    background-color: transparent;
+    border: 15px solid #9c1ee9;
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+    text-align: center;
+    align-items: center;
+    align-content: center;
+    
+}
+.watch-video .watchright{
+    width: 40%;
+    margin-top: 10%;
+    /* background-color: #9c1ee9; */
+}
+.watchright h1{
+    font-size: 3.5em;
+    text-align: center;
+}
+.watchright p{
+    font-size: 1.34em;
+    padding: 20px 60px;
+}
+.love-event{
+    width: 100%;
+    display: flex;
+    background-color: #9c1ee9;
+    justify-content: center;
+    gap: 40px;
+    height: 300px;
+    margin-top: 20%;
+    margin-bottom: 5%;
+    position: relative;
+    
+}
+.love-event .event-left{
+    display: flex;
+    flex-direction: column;
+    
+
+    
+    
+}
+.love-event .event-left img{
+    position: absolute;
+    bottom: 0px;
+    left: 90px;
+    height: 400px;
+}
+.love-event .event-right{
+    margin-left: 30%;
+}
+.event-right h1{
+    padding: 60px 0px 20px 0px;
+    color: white;
+    font-size: 2.2em;
+}
+.event-right p{
+    color: white;
+    font-size: 1.4em;
+    padding: 0px 8% 0 0px;
+       
+}
+.event-right button{
+    font-size: 1.5em;
+    padding: 20px 40px;
+    margin-top: 5%;
+    border: none;
+    border-radius: 30px;
+    color: white;
+    background-color: blue;
+    cursor: pointer;
+}
+footer{
+    background: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)), url(bg.png);
+    width: 100%;
+    height: 700px;
+    margin-top: 10%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+}
+.footer-title{
+    text-align: center;
+}
+.footer-title h1{
+    font-size: 3em;
+    padding-top: 100px;
+}
+.footer-title p{
+    padding: 20px 30%;
+    font-size: 1.1em;
+}
+footer form{
+    text-align: center;
+    align-items: center;
+    align-items: center;
+    margin-top: 2%;
+    /* background-color: #9c1ee9; */
+    width: 100%;
+}
+footer form input{
+    width: 300px;
+    height: 40px;
+    outline: none;
+    padding: 5px 20px;
+    font-size: 20px;
+    border-radius: 10px;
+    border: none;
+}
+footer form button{
+    font-size: 20px;
+    padding: 12px 15px;
+    background-color: #9c1ee9;
+    border: none;
+    border-radius: 10px;
+    margin-left: 20px;
+    color: white;
+}
+.footer-bottom{
+    padding: 20px 60px;
+    display: flex;
+    justify-content: center;
+    gap: 15%;
+    align-items: center;
+    margin-top: 12%;
+
+}
+.footer-bottom h1{
+    color: white;
+    font-size: 2.5em;
+}
+.footer-bottom ul{
+    display: flex;
+    gap: 50px;
+    font-size: 1.2em;
+    list-style: none;
+}
+.footer-bottom ul li a{
+    color: grey;
+    text-decoration: none;
+}
+.footer-bottom ul li span{
+    color: white;
+}
+
+.icons{
+    font-size: 30px;
+}
+.icons i{
+    background-color: transparent;
+    border: 1px solid #9c1ee9;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    align-content: center;
+}
+#ibg{
+    background-color: #9c1ee9;
+}
+footer hr{
+    width: 90%;
+    margin-left: 5%;
+    margin-top: 2%;
+}
+footer .privecy{
+    display: flex;
+    justify-content: center;
+    gap: 55%;
+    margin-top: 2%;
+    color: grey;
+}
+
+
+/* EVent List page */
+.event-main{
+    background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.6)),url(eventlist\ bg.png) ;
+    width: 100%;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.event-main #event-header{
+    background-color: #2c2c2c;
+    
+}
+#event-header h1{
+    color: white;
+}
+.event-main .header ul li a{
+    color: white;
+}
+.event-main ,.header button{
+    border: none;
+}
+.speakers{
+    width: 100%;
+
+}
+.speakers-event{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 400px 400px 400px;
+  
+    justify-content: center;
+    gap: 10px;
+    background-color: transparent;
+    
+    margin-top: 20px;
+    padding: 20px;
+    
+}
+.speakers-event .event-speaker{
+    width:350px;
+    height: 500px;
+    margin-top: 4%;
+   
+    border: 1px solid #9c1ee9;
+    border-radius: 30px;
+}
+.event-speaker img{
+    width: 350px;
+}
+.event-speaker h1{
+    font-size: 1.5em;
+    padding-top: 20px;
+    padding-left: 10px;
+}
+.event-speaker .date{
+    padding-left: 10px;
+    display: flex;
+    justify-content: start;
+    align-content: center;
+    align-items: center;
+    margin-top: 24%;
+}
+.event-speaker .date h2{
+    font-size: 1em;
+    font-weight: 100;
+    color: grey ;
+}
+.event-speaker .date i{
+    font-size: 1.3em;
+    color: grey;
+    
+}
+.event-speaker .location{
+    display: flex;
+    justify-content: start;
+    padding-left: 10px;
+    padding-top: 10px;
+
+}
+.location i{
+    font-size: 1.3em;
+    color: grey;
+}
+.location h3{
+    font-size: 1.2em;
+    font-weight: 200;
+}
+.event-speaker .org{
+    margin-top: 8%;
+    padding-left: 12px;
+    
+}
+.org h6{
+    font-size: 1.2em;
+    font-weight: 100;
+}
+.org span{
+    color: #9c1ee9;
+    font-weight: 600;
+}
+
